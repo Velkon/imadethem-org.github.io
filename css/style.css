@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700,800");
+@import url("font-awesome.css");
+@import url("normalize.css");
+@import url("rexive.css");
+
+html, body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #EFEFEF;
+
+	background-image: url("../images/logo_imadeit_background.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-attachment: fixed;
+
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.anti-select {
+	-webkit-touch-callout: none !important;
+	-webkit-user-select: none !important;
+	-khtml-user-select: none !important;
+	-moz-user-select: none !important;
+	-ms-user-select: none !important;
+	user-select: none !important;
+
+	cursor: pointer;
+}
+
+#container {
+	min-width: 768px;
+}
+
+#header {
+	height: 64px;
+	background-color: #0161A5;
+	white-space: nowrap;
+}
+
+#logo {
+	height: 100%;
+	padding-top: 6px;
+	padding-bottom: 6px;
+
+	color: white;
+
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#title {
+	height:			38px;
+	font-size:		38px;
+	line-height:	38px;
+
+	font-weight: 800;
+}
+
+#sub-title {
+	height:			13px;
+	font-size:		13px;
+	line-height:	13px;
+
+	font-weight: 700;
+}
+
+#navigation {
+	height: 64px;
+}
+
+#navigation-wrapper {
+	height: 64px;
+	float: right;
+}
+
+#navigation ul {
+	height: 64px;
+	list-style: none;
+}
+
+#navigation a li {
+	font-size: 0.85em;
+	padding-left: 12px;
+	padding-right: 12px;
+	line-height: 64px;
+	display: inline-block;
+	color: white;
+	transition: 0.2s;
+}
+
+#navigation a li:hover {
+	background-color: #1070B4;
+}
+
+#sub-header {
+	background-color: #1070B4;
+
+	text-align: center;
+	font-size: 0.85em;
+	color: white;
+
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+#sub-header a {
+	font-weight: 700;
+}
+
+#warning {
+	background-color: #ba2229;
+
+	text-align: center;
+	font-size: 0.85em;
+	color: white;
+
+	margin-top: 12px;
+
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+#content {
+	margin-top: 32px;
+	background-color: white;
+
+	border-left: 1px solid #e4e4e4;
+	border-right: 1px solid #e4e4e4;
+
+	color: #404040;
+
+	padding: 8px;
+}
+
+#content h1 {
+	font-size: 1.6em;
+	color: #0161A5;
+	border-bottom: 1px solid #0161A5;
+}
+
+#content h2 {
+	font-size: 1em;
+}
+
+#content h3 {
+	font-size: 0.8em;
+	color: #919191;
+	font-weight: 300;
+}
+
+#content p {
+	font-size: 0.8em;
+	margin-bottom: 1em;
+
+	text-align: justify;
+}
+
+.tablething {
+	padding: 8px;
+	background-color: #FCFCFC;
+	border: 1px solid #e3e3e3;
+	color: #0161A5;
+}
+
+.tablething h4 {
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+.tablething .noticon {
+	background-position: left center;
+	background-repeat: no-repeat;
+	font-size: 0.69em;
+	margin-bottom: 0.8em;
+	cursor: pointer;
+}
+
+.tablething .noticon i {
+	cursor: auto;
+}
+
+.tablething .icon {
+	padding-left: 20px;
+	background-position: left center;
+	background-repeat: no-repeat;
+	font-size: 0.69em;
+	margin-bottom: 0.8em;
+	cursor: pointer;
+}
+
+#detection, #testimonials {
+	margin-top: 16px;
+
+	
+}
+	
+small {
+	font-size: 0.9em;
+}

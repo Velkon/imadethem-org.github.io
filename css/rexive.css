@@ -1,0 +1,107 @@
+/*
+  This used to have a license. The author deleted it, god knows what it was. 
+  https://github.com/brantleye/rexive
+*/
+
+* {
+  margin:0;
+  padding:0;
+  -webkit-text-size-adjust:none;
+  -webkit-tap-highlight-color:transparent;
+}
+
+/* For "fixed" header logic
+********************************************/
+#body {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Containers contain rows
+********************************************/
+.container {
+  position:relative;
+  width:94%;
+  max-width: 1028px;
+  margin-left:auto;
+  margin-right:auto;
+  overflow:hidden;
+}
+
+.fullscreen {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Rows contain columns
+********************************************/
+.row {
+  zoom: 1;
+  width: 100%;
+  overflow: hidden;
+}
+.row:before,
+.row:after {
+  display: table;
+  content: "";
+  zoom: 1;
+  *display: inline;
+}
+.row:after {
+  clear: both;
+}
+
+.section {
+  padding:2em 0;
+}
+
+/* Columns
+********************************************/
+[class^="col"], [class^="mcol"] {
+  float: left;
+  display: inline;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.col1 {
+  width: 6.33333%;
+}
+.col2 {
+  width: 14.6666%;
+}
+.col3 {
+  width: 23%;
+}
+.col4 {
+  width: 31.3333%;
+}
+.col5 {
+  width: 39.6666%;
+}
+.col6 {
+  width: 48%;
+}
+.col7 {
+  width: 56.3333%;
+}
+.col8 {
+  width: 64.6666%;
+}
+.col9 {
+  width: 73%;
+}
+.col10 {
+  width: 81.3333%;
+}
+.col11 {
+  width: 89.6666%;
+}
+.col12 {
+  width: 98%;
+}
+
+/* Offsets add margins to columns
+********************************************/
+.offset {
+  height:100%;
+}
